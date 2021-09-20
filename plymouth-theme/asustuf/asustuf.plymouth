@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=ASUS-TUF
+Description=ASUS TUF Gaming logo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/asustuf
+ScriptFile=/usr/share/plymouth/themes/asustuf/asustuf.script
