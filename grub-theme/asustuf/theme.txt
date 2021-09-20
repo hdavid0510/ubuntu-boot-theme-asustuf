@@ -8,8 +8,8 @@ terminal-font: "Unifont Regular 12"
 
 ################### LOGO ###################
 + image {
-    top = 375
-    left = 720
+    top = 196
+    left = 572
     file = "bgrt.png"
 }
 

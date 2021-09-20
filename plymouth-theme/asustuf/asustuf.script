@@ -141,20 +141,11 @@ fun StringToInteger (str) {
 Window.SetBackgroundTopColor (0.00, 0.00, 0.00);     # Nice colour on top of the screen fading to
 Window.SetBackgroundBottomColor (0.00, 0.00, 0.00);  # an equally nice colour on the bottom
 
-bits_per_pixel = Window.GetBitsPerPixel ();
-if (bits_per_pixel == 4) {
-    logo_filename = "bgrt16.png";
-    progress_dot_off_filename = "progress-dot-off16.png";
-    progress_dot_on_filename = "progress-dot-on16.png";
-    password_field_filename = "password-field16.png";
-    question_field_filename = "password-field16.png";
-} else {
-    logo_filename = "bgrt.png";
-    progress_dot_off_filename = "progress-dot-off.png";
-    progress_dot_on_filename = "progress-dot-on.png";
-    password_field_filename = "password-field.png";
-    question_field_filename = "password-field.png";
-}
+logo_filename = "bgrt.png";
+progress_dot_off_filename = "progress-dot-off.png";
+progress_dot_on_filename = "progress-dot-on.png";
+password_field_filename = "password-field.png";
+question_field_filename = "password-field.png";
 
 logo.image = Image (logo_filename);
 logo.sprite = Sprite ();
